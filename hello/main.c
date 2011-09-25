@@ -25,7 +25,7 @@ int main (int argc, const char * argv[])
     
         int x = 25;
         int *ptr = &x; /*ptr is pointer */
-        int **temp = &ptr; /* temp is pointer to ptr */
+        int **temp = &ptr; /* temp is pointer to ptr  test */
         printf("%d %d %d", x, *ptr,**temp); 
     return 0;
 }
