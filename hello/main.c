@@ -11,15 +11,22 @@
 int main (int argc, const char * argv[])
 {
 
-    int word[3] = {1,2,3};
-  //  int i=0;
-    printf("%lu\n", sizeof(word));
-  //  for(i=0; i<sizeof word; i++)
-    //    printf("%c\n", word[i]);
-    printf("lol %p\n", (word+1));
+//    char word[] = "testy";
+//    int i=0;
+//    printf("%lu\n", sizeof(word));
+//    for(i=0; i<sizeof word; i++)
+//        printf("%c\n", *word);
+//  //  printf("lol %d\n", *word);
+//  //  printf("lol %d\n", *word);
+//    
+//    // insert code here...
+//    printf("Hello, World! lol 1234 123 dsfsfs \n");
+//    return 0;
     
-    // insert code here...
-    printf("Hello, World! lol 1234 123 dsfsfs \n");
+        int x = 25;
+        int *ptr = &x; /*ptr is pointer */
+        int **temp = &ptr; /* temp is pointer to ptr */
+        printf("%d %d %d", x, *ptr,**temp); 
     return 0;
 }
 
